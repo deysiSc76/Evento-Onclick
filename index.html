@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Evento Onclick</title>
+</head>
+<body>
+    <div id="container">
+        <div id="cabecera">
+            <h1>Dojonary</h1>
+            <input type="text" id= "buscar" placeholder="Search">
+            <button onclick="turnLogOut(this)" id="login">Login</button>
+        </div>
+        <div id="cuerpo">
+            <div id="columna1">
+                <div class="resultado">
+                    <div id="palabra">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural:ninjas</p>
+                        <button onclick="alert('Ninja was liked')" class="likes">13 Likes</button>
+                    </div>
+                    <div id="significado">
+                        <p>A practitioner skilled in the</p> 
+                         <p> <a href="">Japanese</a>
+                             art of 
+                             <a href="">ninjutsu</a>
+                            </p>
+                    </div>
+                </div>
+                <div class="resultado">
+                    <div id="palabra">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural:ninjas</p>
+                        <button type="button" class="likes">37 Likes</button>
+                    </div>
+                    <div id="significado">
+                        <p>A <a href="">programmer</a>
+                             who breaks </p>
+                        <p>down problems with
+                             <a href="">zen</a>
+                             - like focus
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div id="columna2">
+                <div class="agregarDef">
+                    <p>Dojonary is </p>
+                    <p>defind by You</p>
+                    <button onclick="hideButton(this)" id="agregar">Add Definition</button>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>
